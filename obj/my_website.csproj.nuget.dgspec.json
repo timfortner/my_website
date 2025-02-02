@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\timfo\\projects\\my_website\\my_website.csproj": {}
+    "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE\\MY_WEBSITE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\timfo\\projects\\my_website\\my_website.csproj": {
+    "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE\\MY_WEBSITE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\timfo\\projects\\my_website\\my_website.csproj",
-        "projectName": "my_website",
-        "projectPath": "C:\\Users\\timfo\\projects\\my_website\\my_website.csproj",
+        "projectUniqueName": "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE\\MY_WEBSITE.csproj",
+        "projectName": "MY_WEBSITE",
+        "projectPath": "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE\\MY_WEBSITE.csproj",
         "packagesPath": "C:\\Users\\timfo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\timfo\\projects\\my_website\\obj\\",
+        "outputPath": "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\timfo\\AppData\\Roaming\\NuGet\\NuGet.Config"
