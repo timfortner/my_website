@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE\\MY_WEBSITE.csproj": {}
+    "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE\\MY_WEBSITE.csproj": {
+    "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE\\MY_WEBSITE.csproj",
+        "projectUniqueName": "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE.csproj",
         "projectName": "MY_WEBSITE",
-        "projectPath": "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE\\MY_WEBSITE.csproj",
+        "projectPath": "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE.csproj",
         "packagesPath": "C:\\Users\\timfo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\timfo\\projects\\my_website\\MY_WEBSITE\\obj\\",
+        "outputPath": "C:\\Users\\timfo\\projects\\my_website\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\timfo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

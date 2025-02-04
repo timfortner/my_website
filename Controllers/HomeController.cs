@@ -1,7 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MY_WEBSITE.Models;
-
 namespace MY_WEBSITE.Controllers;
 
 public class HomeController : Controller
@@ -16,6 +15,20 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         return View();
+    }
+
+    public IActionResult Expenses()
+    {
+        return View();
+    }
+
+    public IActionResult CreateEditExpenses()
+    {
+        return View();
+    }
+    public IActionResult SubmitExpenseForm(Expense model)
+    {
+        return RedirectToAction("Expenses");
     }
 
     public IActionResult Privacy()
