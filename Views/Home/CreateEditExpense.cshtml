@@ -8,7 +8,8 @@
     <h1 class="display-4">Add or Modify an Expense</h1>
 </div>
 
-<form>
+<form asp-action="CreateEditExpense" asp-controller="Home">
+    <input asp-for="Id" type="hidden" />
     <label>Expense Name</label>
     <input asp-for="Name" type="text" placeholder="expense name" class="form-control" />
     <label class="mt-4">Expense Amount</label>

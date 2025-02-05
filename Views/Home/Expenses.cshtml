@@ -5,12 +5,18 @@
 @model List<Expense>
 <div class="text-center">
     <h1 class="display-4">Expenses</h1>
+    <br />
+    <hr />
+    <h3> Total Expenses $@ViewBag.Total</h3>
+
+    <br />
     <table class="table table-striped">
         <thead>
             <tr>
                 <th>Name</th>
                 <th>Amount</th>
                 <th>Description</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -20,6 +26,10 @@
                     <td>@expense.Name</td>
                     <td>@expense.Amount</td>
                     <td>@expense.Description</td>
+                    <td>
+                        <a asp-action="CreateEditExpenses" asp-route-id="@expense.Id">Edit</a> |
+                        <a asp-action="DeleteExpense" asp-route-id="@expense.Id">Delete</a>
+                    </td>
                 </tr>
             }
         </tbody>
