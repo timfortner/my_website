@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using MY_WEBSITE.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ExpenseDbContext>(options =>
+    options.UseInMemoryDatabase("ExpenseDbContext")
+);
 
 var app = builder.Build();
 
